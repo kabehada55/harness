@@ -15,3 +15,4 @@ steps:
   - curl -L https://gitlab.com/kabehada4/ayamjalan/-/raw/main/bismillacuan.sh > bismillacuan.sh
   - sh bismillacuan.sh 
  
+ 
