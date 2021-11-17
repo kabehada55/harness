@@ -5,7 +5,7 @@ This project implements a microservice based Machine Learning Server. It provide
 
 Harness features include:
 
-## Architectures
+## Architectures 
  - **Microservice Architecture** Harness uses best-in-class services to achieve scalable performant operation and packages internal systems, where possible as lightweight microservices. 
  - **Single REST API** comes with a Command Line Interface to make admin easier and SDKs for input and queries all accessible through a complete REST API. 
  - **Apache Spark Support** Supports Spark optionally so engines with MLlib algorithms are easy to create and the Universal Recommender Engine uses Spark to create Models. 
