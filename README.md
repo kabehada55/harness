@@ -4,7 +4,7 @@
 This project implements a microservice based Machine Learning Server. It provides an API for plug-in Engines and implements all services needed for input and query. It is also the platform for the Universal Recommender, which is a Harness Engine.
 
 Harness features include: 
-
+s
 ## Architectures 
  - **Microservice Architecture** Harness uses best-in-class services to achieve scalable performant operation and packages internal systems, where possible as lightweight microservices. 
  - **Single REST API** comes with a Command Line Interface to make admin easier and SDKs for input and queries all accessible through a complete REST API. 
