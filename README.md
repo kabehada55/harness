@@ -8,7 +8,7 @@ s
 ## Architectures 
  - **Microservice Architecture** Harness uses best-in-class services to achieve scalable performant operation and packages internal systems, where possible as lightweight microservices. 
  - **Single REST API** comes with a Command Line Interface to make admin easier and SDKs for input and queries all accessible through a complete REST API. 
- - **Apache Spark Support** Supports Spark optionally so engines with MLlib algorithms are easy to create and the Universal Recommender Engine uses Spark to create Models. 
+ - **Apache Spark Support** Supports Spark optionally so engines with MLlib algorithms are easy to create and the Universal Recommender Engine uses Spark to create Models.  
  - **Compute-Engine Neutral**: supports any compute engine or pre-packaged algorithm library that is JVM compatible. For example Spark, TensorFlow, Vowpal Wabbit, MLlib, Mahout etc. Does not require Spark, or HDFS but supports them with the Harness Toolbox.
 
 ## Operation
